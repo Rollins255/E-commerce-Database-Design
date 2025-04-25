@@ -2,7 +2,7 @@
 
 ## 🎯 Objective
 
-The project aimed to design an E-commerce database.
+The project aimed to design an E-commerce database.It captures various aspects like brands,products,categories,sizes,colors,images,stock management and product attributes.
 
 ## ✍️ Creation of ERD
 
@@ -47,8 +47,18 @@ The relationships defined in the ERD diagram are as follows;
 
 - attribute_type ↔ attribute_category (many-to-one)
 
+## How to install
+1. Clone the repository.
+2. Open your SQL client and connect to your server.
+3. Run the ecommerce.sql script to create the database and populate it with intial data: mysql -u your-username -p < ecommerce.sql
+4. Database is ready!
+
+
+
 # 🤝 Contributor
 
 Rollins: https://github.com/Rollins255
 
 Charles Owino: https://github.com/Charles-Owino-Agwanda
+
+Yvonne Mueni : https://github.com/Yvonnee3
